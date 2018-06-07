@@ -44,3 +44,10 @@
 .main-content__footer {
 
 }
+
+@media only screen and (max-width: 600px) {
+  .main-content__exchange__currency-to,
+  .main-content__exchange__currency-from {
+    width: 90%;
+  }
+}
