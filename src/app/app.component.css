@@ -16,9 +16,6 @@
 
 .main-content__exchange__currency-to,
 .main-content__exchange__currency-from {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   padding: 7px;
   margin: 0;
   -webkit-transition: all .30s ease-in-out;
