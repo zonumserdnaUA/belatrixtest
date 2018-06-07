@@ -3,7 +3,7 @@
   <div class="main-content__exchange">
     <div class="main-content__inputs-container">
       <input type="number" name="currencyFrom" class="main-content__exchange__currency-from" [(ngModel)]="currencyFrom" placeholder="EU" step="0.0001">
-      <input type="number" name="currencyTo" class="main-content__exchange__currency-to" [(ngModel)]="currencyTo" placeholder="USD" readonly step="0.0001">
+      <input type="text" name="currencyTo" class="main-content__exchange__currency-to" [ngModel]="currencyTo | currency:'USD':'symbol':'4.4-4'" placeholder="USD" readonly>
     </div>
     <button (click)="calculate()">CALCULATE</button>
   </div>
