@@ -1,0 +1,11 @@
+<div class="main-content">
+  <div class="main-content__header"></div>
+  <div class="main-content__exchange">
+    <div class="main-content__inputs-container">
+      <input type="number" name="currencyFrom" class="main-content__exchange__currency-from" [(ngModel)]="currencyFrom" placeholder="EU" step="0.0001">
+      <input type="number" name="currencyTo" class="main-content__exchange__currency-to" [(ngModel)]="currencyTo" placeholder="USD" readonly step="0.0001">
+    </div>
+    <button (click)="calculate()">CALCULATE</button>
+  </div>
+  <div class="main-content__footer"></div>
+</div>
